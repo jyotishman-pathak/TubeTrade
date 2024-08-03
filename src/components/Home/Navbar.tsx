@@ -71,11 +71,10 @@ const Navbar = () => {
 
       <div className="flex items-center gap-3">
         <Button asChild>
-          <Link href="/login">Login</Link>
+          <Link href="/login">Connect Your Wallet</Link>
         </Button>
-        <Button asChild>
-          <Link href="/signup">SignUp</Link>
-        </Button>
+       
+     
         <Button onClick={themeHandler} variant="link">
           {theme === 'dark' ? <MdDarkMode size={24} /> : <MdOutlineDarkMode size={24} />}
         </Button>

@@ -40,21 +40,21 @@ const CustomCard: React.FC<CustomCardProps> = ({ gain }) => {
           <p className='font-semibold'>Cloud/USDC</p>
           <p>657 INR</p>
           <p style={{ color: gain < 0 ? 'red' : 'green' }}>
-            {gain}
+            {gain}%
           </p>
         </div>
         <div className="flex justify-between">
           <p>Cloud/USDC</p>
           <p>657 INR</p>
           <p style={{ color: gain < 0 ? 'red' : 'green' }}>
-            {gain}
+            {gain}%
           </p>
         </div>
         <div className="flex justify-between">
           <p>Cloud/USDC</p>
           <p>657 INR</p>
           <p style={{ color: gain < 0 ? 'red' : 'green' }}>
-            {gain}
+            {gain } %
           </p>
         </div>
         </div>
@@ -88,7 +88,7 @@ const Dashboard: React.FC<DashboardProps> = () => {
 
 
 
-<div className='h-[3173px] mt-[50px]'>
+<div className='h-[100vh] mt-[50px]'>
   <div className="w-full  flex gap-3">
   <Button variant={'secondary'} onClick={()=>setSelectedChart("spot")}>Spot</Button>
   <Button variant={'secondary'} onClick={()=>setSelectedChart("fav")}>Favorite</Button>
